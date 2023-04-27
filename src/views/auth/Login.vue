@@ -3,7 +3,7 @@ import LoginForm from '@/components/auth/LoginForm.vue';
 import logo from '@/assets/images/logos/logo.png'
 </script>
 <template>
-    <div class="authentication">
+    <div class="authentication" >
         <v-container fluid class="pa-3">
             <v-row class="h-100vh d-flex justify-center align-center">
                 <v-col cols="12" lg="4" xl="3" class="d-flex align-center">
@@ -11,11 +11,9 @@ import logo from '@/assets/images/logos/logo.png'
                         <v-card-item class="pa-sm-8">
                             <div class="d-flex justify-center py-4">
                               <v-img
-                                  aspect-ratio="16/9"
-                                  cover
                                   :src="logo"
-                                  :height="50"
-                                  :widht="50"
+                                  :width="100"
+                                  :height="100"
                               ></v-img>
                             </div>
                             <div class="text-body-1 text-muted text-center mb-3">Welcome to Ares FC</div>
